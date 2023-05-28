@@ -1,0 +1,16 @@
+.justify-content-center {
+    text-align: center;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+.card {
+    margin-left: 50px;
+    margin-bottom: 35px;
+}
+div h1{
+    padding-top: 10px;
+
+}

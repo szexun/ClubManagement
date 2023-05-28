@@ -1,0 +1,164 @@
+.bigheader {
+    position: sticky;
+    height: 110px;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    font-family: "Lobster", cursive;
+    font-family: "Source Code Pro", monospace;
+    text-align: center;
+}
+  
+.header {
+    position: sticky;
+    top: 90px;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    background-color: #131415;
+  
+}
+  
+.header a {
+    float: left;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: Monospace;
+    font-size: 18px;
+  
+}
+  
+.header a.active {
+    background-color: rgb(48, 46, 46);
+  
+}
+  
+.header a:hover {
+    text-decoration: underline;
+    color: grey;
+  
+}
+  
+  
+.topnav {
+    background-color: #131415;
+    overflow: hidden;
+    width: 100%;
+  
+}
+  
+  
+.topnav-right {
+    float: right;
+  
+}
+  
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+  
+}
+  
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  
+}
+  
+  
+.topnav a.active {
+    background-color: slategrey;
+    color: white;
+  
+}
+
+body {
+    background: rgb(92, 89, 94)
+}
+
+.form-control:focus {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 11px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 100%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+}
+
+.form-control:focus:placeholder-shown + .labels {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-4rem);
+    transform: translateY(-4rem);
+}
+
+.labels {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.3s;
+    transform: translateY(0rem);
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 50%;
+}
+.btn {
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
